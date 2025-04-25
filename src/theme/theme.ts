@@ -9,13 +9,6 @@ const terracotta = {
   contrastText: '#FFFFFF',
 };
 
-const cream = {
-  main: '#E8DFD1', // Main cream
-  light: '#F5EFE7', // Light cream
-  dark: '#D5C8B5', // Dark cream
-  contrastText: '#333333',
-};
-
 const darkBrown = {
   main: '#5D4037', // Dark brown
   light: '#7D6158', // Light brown

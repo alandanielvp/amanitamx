@@ -44,6 +44,20 @@ export default function RootLayout({
           </Box>
           <Footer />
         </Box>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.GPT4SalesConfig = {
+                title: "Adrián, tu asistente virtual",
+                welcomeMessage: "un saludo de bienvenida más agresivo",
+              };
+            `,
+          }}
+        />
+        <script
+          src='https://api.gpt4sales.ai/widget/chat-widget.js'
+          data-bot-id='cm477iluc0001uf2pen7wlf4r'
+        />
       </body>
     </html>
   );

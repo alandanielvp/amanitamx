@@ -3,6 +3,7 @@ import { Roboto } from 'next/font/google';
 import { Box } from '@mui/material';
 import Footer from '@/components/Footer/Footer';
 import Navbar from '@/components/Navbar/Navbar';
+import Script from 'next/script';
 
 // Setup Roboto font
 const roboto = Roboto({
@@ -54,7 +55,7 @@ export default function RootLayout({
             `,
           }}
         />
-        <script
+        <Script
           src='https://api.gpt4sales.ai/widget/chat-widget.js'
           data-bot-id='cm477iluc0001uf2pen7wlf4r'
         />
